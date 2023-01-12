@@ -1,0 +1,37 @@
+body {
+    color: rgb(18, 64, 60);
+}
+
+img {
+    width: 300px;
+    height: auto;
+    float: right;
+    margin: 0 0 16px 16px;
+}
+
+.wrapper {
+    width: 800px;
+    margin: 16px auto;
+}
+
+p {
+    /* text align: justify;*/
+}
+
+/* if the screen size is smaller than 450 pixels*/
+@media (max-width: 450px) {
+
+    .wrapper {
+        width: 95%;
+    }
+
+    img {
+        width: 100%;
+        /* top right bottom left*/
+        margin: 0 0 16px 0;
+        float: none;
+    }
+
+
+
+}

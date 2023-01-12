@@ -1,0 +1,23 @@
+body {
+background-color: rgb(222, 221, 221);
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(20, 49, 49);
+/*
+px = pixels (fonts, images)
+% = percent (images)
+rem = kinda like percent (fonts)
+vw = view width (background, images)
+vh = view height
+*/
+    font-size: 36px;
+}
+
+.header-image {
+    width: 45vw;
+    height: auto;
+    border: 3px solid black;
+}
+
